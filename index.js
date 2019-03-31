@@ -34,6 +34,10 @@ client.on('message', (message) => {
     message.channel.send('If you want to apply! Then go to #📋registration📋 Good luck!');
   }
 
+ 
+})
+
+client.on("message", async message => {
   if (message.content.startsWith(config.prefix + "help")) {
     let author = message.member;
     let role = message.guild.roles.find('name', "Administrator");
@@ -135,7 +139,7 @@ client.on('message', (message) => {
         console.log(message.author + " has received the normal help list through his direct messages.");
     }
 }
-})
+}
 
 client.on("message", async message => {
 
