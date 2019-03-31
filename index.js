@@ -125,6 +125,6 @@ client.on("message", async message => {
   }
 });
 
-client.login(config.token); 'NTYxMzQ0MjQ3NDk2ODM1MDcz.XJ_qOg.3R-IEFfPbJ_rfDJhrQVsWXjOrek'
+client.login(process.env.BOT_TOKEN); 
 
 
