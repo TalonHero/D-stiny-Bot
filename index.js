@@ -139,7 +139,7 @@ client.on("message", async message => {
         console.log(message.author + " has received the normal help list through his direct messages.");
     }
 }
-}
+})
 
 client.on("message", async message => {
 
