@@ -30,8 +30,8 @@ client.on("guildDelete", guild => {
 
 // Here
 client.on('message', (message) => {
-  if (message.content.startsWith("How do I apply here?")) {
-    message.channel.send('If you want to apply! Then go to #📋registration📋 Good luck!');
+  if (message.content.startsWith("Hey")) {
+    message.channel.send('Hello! I hope you love the server!💕');
   }
 
  
